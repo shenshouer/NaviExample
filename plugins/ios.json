@@ -1,0 +1,106 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "framework": {
+                "parents": {
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "ImageIO.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreMotion.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreLocation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreTelephony.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "MediaPlayer.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "AVFoundation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libstdc++6.0.9.dylib": [],
+                    "AssetsLibrary.framework": [],
+                    "CoreGraphics.framework": [],
+                    "MobileCoreServices.framework": [],
+                    "src/ios/libs/libstdc++6.0.9.dylib": [],
+                    "libstdc++.6.0.9.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Baidu\"><param name=\"ios-package\" value=\"CDVBaiduNavi\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"Valid Architecutres\" value=\"armv7,arm64\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>Required background modes</key><array><string>App plays audio or streams audio/video using AirPlay</string><string>App registers for location updates</string></array><key>Supported interface orientations</key><array><string>Portrait (bottom home button)</string><string>Portrait (top home button)</string><string>Landscape (left home button)</string><string>Landscape (right home button)</string></array><key>NSLocationAlwaysUsageDescription</key><string>只有开启定位功能才能正常使用百度导航</string></dict></array>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.baidu"
+        },
+        "org.ssgroup.sope.cordova.baiduNavi": {
+            "PACKAGE_NAME": "com.example.baidu"
+        }
+    },
+    "dependent_plugins": {}
+}
